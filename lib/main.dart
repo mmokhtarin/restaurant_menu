@@ -51,15 +51,14 @@ class RestaurantMenuApp extends StatelessWidget {
 }
 
 // -------------------------------------------------------------
-// 3. MAIN MENU SCREEN (Requirement 2 & 3)
+// 3. MAIN MENU SCREEN 
 // -------------------------------------------------------------
 class RestaurantMenuScreen extends StatelessWidget {
   const RestaurantMenuScreen({super.key});
 
-  // The 3 Traditional Malay dishes
   final List<FoodItem> menuItems = const [
     FoodItem(
-      name: 'Nasi Lemak',
+      name: 'Nasi Lemak Viral Homemade',
       category: 'Traditional Rice Dish',
       price: 'RM 12.50',
       imagePath: 'assets/images/nasi_lemak.jpg',
@@ -74,7 +73,7 @@ class RestaurantMenuScreen extends StatelessWidget {
       ],
     ),
     FoodItem(
-      name: 'Satay Ayam',
+      name: 'Satay Ayam Berapi',
       category: 'Charcoal Grilled Skewers',
       price: 'RM 15.00',
       imagePath: 'assets/images/satay.jpg',
@@ -88,7 +87,7 @@ class RestaurantMenuScreen extends StatelessWidget {
       ],
     ),
     FoodItem(
-      name: 'Beef Rendang',
+      name: 'Beef Rendang (Daging import Australia)',
       category: 'Slow-Cooked Meat Special',
       price: 'RM 18.00',
       imagePath: 'assets/images/rendang.jpg',
